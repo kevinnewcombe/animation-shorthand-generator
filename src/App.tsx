@@ -2,7 +2,7 @@ import './App.scss';
 import Input from './components/input/Input';
 import PropertyInput from './models/propertyInput';
 import initialProperties from './utils/initialProperties';
-import { useReducer, useEffect } from 'react';
+import { useReducer } from 'react';
 
 
 const initialState = {
