@@ -1,0 +1,9 @@
+@use "/src/styles/utilities/mixins";
+.input{
+  &__instructions{
+    font-size: mixins.rem(14);
+    margin-left: mixins.rem(4);
+    color: var(--color-text-secondary);
+    background: var(--color-faint-highlight);
+  }
+}

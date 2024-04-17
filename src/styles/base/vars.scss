@@ -1,0 +1,25 @@
+:root{
+  // colors
+  --color-page-bg: #222737;
+  --color-text: #fff;
+  --color-text-secondary: #ccc;
+  --color-faint-highlight: rgba(255, 235, 208, 0.12);
+  --color-object-body:#00a8d2;
+  --color-input-focus: #27d4ff;
+  --color-error:#ff9c9c;
+  // sizes
+  --space-xsmall: 8px;
+  --space-small: 16px;
+  --space-medium: 24px;
+  --space-large: 32px;
+  --space-xlarge: 48px;
+
+  --circle-size: 50px;
+}
+
+@media(prefers-color-scheme: light){
+
+}
+
+
+

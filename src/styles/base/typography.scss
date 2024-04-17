@@ -1,0 +1,11 @@
+@use "/src/styles/utilities/mixins";
+
+h1{
+  font-size: mixins.rem(30);
+  font-weight: 700;
+}
+
+code{
+  font-family: monospace;
+  font-weight: 600;
+}
