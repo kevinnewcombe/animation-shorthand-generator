@@ -8,8 +8,7 @@ import { useReducer, useEffect } from 'react';
 const initialState = {
   cssProperties: initialProperties,
   animationName: 'moveCircle',
-  cssShorthand: 'moveCircle',
-  stylesObject: {}
+  cssShorthand: '0s ease 0s 1 normal forwards running moveCircle',
 }
 
 
@@ -41,10 +40,6 @@ function App() {
   function handlePropertyChange(cssProperty: string, value: string){
     dispatch({ type: "UPDATE_CSS_PROPERTY", payload: { cssProperty: cssProperty, value: value} });
   }
-
-  useEffect(() => {
-    dispatch({ type: 'UPDATE_CSS_PROPERTY', payload: { cssProperty: 'animation-fill-mode', value: 'forwards' } });
-  }, []); // run this at the start
 
   const [state, dispatch] = useReducer(reducer, initialState);
   
